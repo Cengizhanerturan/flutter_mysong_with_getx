@@ -1182,7 +1182,7 @@ class _GirisPageState extends State<GirisPage> {
 
   // Future<TurkcePop> _turkcePopGetir() async {
   //   var response = await http.get(Uri.parse(
-  //       'https://deezerdevs-deezer.p.rapidapi.com/playlist/6836336384?rapidapi-key=6f280d86e7msh3a9555c0adbcdbcp109e49jsnaa78cb38e7f6'));
+  //       'https://deezerdevs-deezer.p.rapidapi.com/playlist/6836336384?rapidapi-key={api-key}'));
   //   if (response.statusCode == 200) {
   //     return TurkcePop.fromJson(jsonDecode(response.body));
   //   } else {
@@ -1192,7 +1192,7 @@ class _GirisPageState extends State<GirisPage> {
 
   // Future<SonCikanlar> _sonCikanlar() async {
   //   var response = await http.get(Uri.parse(
-  //       'https://deezerdevs-deezer.p.rapidapi.com/playlist/6305635104?rapidapi-key=6f280d86e7msh3a9555c0adbcdbcp109e49jsnaa78cb38e7f6'));
+  //       'https://deezerdevs-deezer.p.rapidapi.com/playlist/6305635104?rapidapi-key={api-key}'));
   //   if (response.statusCode == 200) {
   //     return SonCikanlar.fromJson(jsonDecode(response.body));
   //   } else {
@@ -1202,7 +1202,7 @@ class _GirisPageState extends State<GirisPage> {
 
   // Future<TurkceRap> _turkceRapGetir() async {
   //   var response = await http.get(Uri.parse(
-  //       'https://deezerdevs-deezer.p.rapidapi.com/playlist/6681799284?rapidapi-key=6f280d86e7msh3a9555c0adbcdbcp109e49jsnaa78cb38e7f6'));
+  //       'https://deezerdevs-deezer.p.rapidapi.com/playlist/6681799284?rapidapi-key={api-key}'));
   //   if (response.statusCode == 200) {
   //     return TurkceRap.fromJson(jsonDecode(response.body));
   //   } else {
@@ -1212,7 +1212,7 @@ class _GirisPageState extends State<GirisPage> {
 
   // Future<TrapTurk> _trapTurkGetir() async {
   //   var response = await http.get(Uri.parse(
-  //       'https://deezerdevs-deezer.p.rapidapi.com/playlist/7617463322?rapidapi-key=6f280d86e7msh3a9555c0adbcdbcp109e49jsnaa78cb38e7f6'));
+  //       'https://deezerdevs-deezer.p.rapidapi.com/playlist/7617463322?rapidapi-key={api-key}'));
   //   if (response.statusCode == 200) {
   //     return TrapTurk.fromJson(jsonDecode(response.body));
   //   } else {
@@ -1222,7 +1222,7 @@ class _GirisPageState extends State<GirisPage> {
 
   // Future<AkustikTurk> _akustikGetir() async {
   //   var response = await http.get(Uri.parse(
-  //       'https://deezerdevs-deezer.p.rapidapi.com/playlist/7658022062?rapidapi-key=6f280d86e7msh3a9555c0adbcdbcp109e49jsnaa78cb38e7f6'));
+  //       'https://deezerdevs-deezer.p.rapidapi.com/playlist/7658022062?rapidapi-key={api-key}'));
   //   if (response.statusCode == 200) {
   //     return AkustikTurk.fromJson(jsonDecode(response.body));
   //   } else {
@@ -1232,7 +1232,7 @@ class _GirisPageState extends State<GirisPage> {
 
   // Future<TurkceRock> _rockTurkGetir() async {
   //   var response = await http.get(Uri.parse(
-  //       'https://deezerdevs-deezer.p.rapidapi.com/playlist/6330235704?rapidapi-key=6f280d86e7msh3a9555c0adbcdbcp109e49jsnaa78cb38e7f6'));
+  //       'https://deezerdevs-deezer.p.rapidapi.com/playlist/6330235704?rapidapi-key={api-key}'));
   //   if (response.statusCode == 200) {
   //     return TurkceRock.fromJson(jsonDecode(response.body));
   //   } else {
@@ -1242,7 +1242,7 @@ class _GirisPageState extends State<GirisPage> {
 
   // Future<Arabesk> _arabeskGetir() async {
   //   var response = await http.get(Uri.parse(
-  //       'https://deezerdevs-deezer.p.rapidapi.com/playlist/1384038815?rapidapi-key=6f280d86e7msh3a9555c0adbcdbcp109e49jsnaa78cb38e7f6'));
+  //       'https://deezerdevs-deezer.p.rapidapi.com/playlist/1384038815?rapidapi-key={api-key}'));
   //   if (response.statusCode == 200) {
   //     return Arabesk.fromJson(jsonDecode(response.body));
   //   } else {
@@ -1252,7 +1252,7 @@ class _GirisPageState extends State<GirisPage> {
 
   // Future<Turku> _turkuGetir() async {
   //   var response = await http.get(Uri.parse(
-  //       'https://deezerdevs-deezer.p.rapidapi.com/playlist/872707323?rapidapi-key=6f280d86e7msh3a9555c0adbcdbcp109e49jsnaa78cb38e7f6'));
+  //       'https://deezerdevs-deezer.p.rapidapi.com/playlist/872707323?rapidapi-key={api-key}'));
   //   if (response.statusCode == 200) {
   //     return Turku.fromJson(jsonDecode(response.body));
   //   } else {
@@ -1262,7 +1262,7 @@ class _GirisPageState extends State<GirisPage> {
 
   // Future<MotiveKal> _motiveKalGetir() async {
   //   var response = await http.get(Uri.parse(
-  //       'https://deezerdevs-deezer.p.rapidapi.com/playlist/6457319124?rapidapi-key=6f280d86e7msh3a9555c0adbcdbcp109e49jsnaa78cb38e7f6'));
+  //       'https://deezerdevs-deezer.p.rapidapi.com/playlist/6457319124?rapidapi-key={api-key}'));
   //   if (response.statusCode == 200) {
   //     return MotiveKal.fromJson(jsonDecode(response.body));
   //   } else {
@@ -1272,7 +1272,7 @@ class _GirisPageState extends State<GirisPage> {
 
   // Future<OnlarTurkce> _onlarTurkceGetir() async {
   //   var response = await http.get(Uri.parse(
-  //       'https://deezerdevs-deezer.p.rapidapi.com/playlist/7633541322?rapidapi-key=6f280d86e7msh3a9555c0adbcdbcp109e49jsnaa78cb38e7f6'));
+  //       'https://deezerdevs-deezer.p.rapidapi.com/playlist/7633541322?rapidapi-key={api-key}'));
   //   if (response.statusCode == 200) {
   //     return OnlarTurkce.fromJson(jsonDecode(response.body));
   //   } else {
@@ -1282,7 +1282,7 @@ class _GirisPageState extends State<GirisPage> {
 
   // Future<IkibinlerTurkce> _ikibinlerTurkceGetir() async {
   //   var response = await http.get(Uri.parse(
-  //       'https://deezerdevs-deezer.p.rapidapi.com/playlist/7626126022?rapidapi-key=6f280d86e7msh3a9555c0adbcdbcp109e49jsnaa78cb38e7f6'));
+  //       'https://deezerdevs-deezer.p.rapidapi.com/playlist/7626126022?rapidapi-key={api-key}'));
   //   if (response.statusCode == 200) {
   //     return IkibinlerTurkce.fromJson(jsonDecode(response.body));
   //   } else {
@@ -1292,7 +1292,7 @@ class _GirisPageState extends State<GirisPage> {
 
   // Future<DoksanlarTurkce> _doksanlarTurkceGetir() async {
   //   var response = await http.get(Uri.parse(
-  //       'https://deezerdevs-deezer.p.rapidapi.com/playlist/6423171724?rapidapi-key=6f280d86e7msh3a9555c0adbcdbcp109e49jsnaa78cb38e7f6'));
+  //       'https://deezerdevs-deezer.p.rapidapi.com/playlist/6423171724?rapidapi-key={api-key}'));
   //   if (response.statusCode == 200) {
   //     return DoksanlarTurkce.fromJson(jsonDecode(response.body));
   //   } else {
@@ -1302,7 +1302,7 @@ class _GirisPageState extends State<GirisPage> {
 
   // Future<SeksenlerTurkce> _seksenlerTurkceGetir() async {
   //   var response = await http.get(Uri.parse(
-  //       'https://deezerdevs-deezer.p.rapidapi.com/playlist/7606229862?rapidapi-key=6f280d86e7msh3a9555c0adbcdbcp109e49jsnaa78cb38e7f6'));
+  //       'https://deezerdevs-deezer.p.rapidapi.com/playlist/7606229862?rapidapi-key={api-key}'));
   //   if (response.statusCode == 200) {
   //     return SeksenlerTurkce.fromJson(jsonDecode(response.body));
   //   } else {
